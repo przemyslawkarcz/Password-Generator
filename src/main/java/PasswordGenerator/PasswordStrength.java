@@ -125,9 +125,9 @@ public class PasswordStrength {
             System.out.println("Password strength: Weak password!");
         } else if ((password.length() >= 8) && (counterOfDigits == 1 || counterOfCapitalLetters == 1 || counterOfSpecialSigns == 1)){
             System.out.println("Password strength: Medium strength password.");
-        }else if ((password.length() >= 8) && (counterOfDigits == 2 || counterOfCapitalLetters == 2 || counterOfSpecialSigns == 2)) {
+        } else if ((password.length() >= 8) && (counterOfDigits == 2 || counterOfCapitalLetters == 2 || counterOfSpecialSigns == 2)) {
             System.out.println("Password strength: Strong password.");
-        }else if ((password.length() >= 8) && (counterOfDigits > 2 || counterOfCapitalLetters > 2 || counterOfSpecialSigns > 2)){
+        } else if ((password.length() >= 8) && (counterOfDigits > 2 || counterOfCapitalLetters > 2 || counterOfSpecialSigns > 2)){
             System.out.println("Password strength: Very strong password :)");
         }
 

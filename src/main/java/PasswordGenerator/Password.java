@@ -28,8 +28,6 @@ public class Password {
 
                 int randomInt = new Random().nextInt(arrayOfSigns.length);
 
-                //System.out.print(arrayOfSigns[randomInt]);
-
                 receivedPassword = receivedPassword.concat(arrayOfSigns[randomInt]);
 
             }
