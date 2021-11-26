@@ -8,6 +8,7 @@ public class PasswordStrength {
     int counterOfCapitalLetters = 0;
     int counterOfSpecialSigns = 0;
 
+    //the method counts all characters of the generated password
     public Integer checksNumberOfCharacters(){
 
         System.out.println("Password length: " + password.length() + " character/s.");
@@ -16,6 +17,7 @@ public class PasswordStrength {
 
     }
 
+    //the method counts all digits of the generated password
     public Integer checksNumberOfDigits(){
 
         String [] digits = new String[]{
@@ -47,6 +49,7 @@ public class PasswordStrength {
 
     }
 
+    //the method counts all capital letters of the generated password
     public Integer checksNumberOfCapitalLetters(){
 
         String [] capitalLetters = new String[]{
@@ -81,6 +84,7 @@ public class PasswordStrength {
 
     }
 
+    //the method counts all special symbols of the generated password like e.g. # or @ etc.
     public Integer checksNumberOfSpecialSigns(){
 
         String [] specialSigns = new String[]{
@@ -116,6 +120,7 @@ public class PasswordStrength {
 
     }
 
+    //the method checks the password strength by comparing the password parameters with the requirements set by the developer
     public void checkPasswordStrength (){
 
         System.out.println();

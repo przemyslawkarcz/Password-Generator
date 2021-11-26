@@ -4,6 +4,7 @@ import java.util.Random;
 
 public class Password {
 
+        //the method creates a password from a pool of characters chosen randomly
         public String createsPassword(){
 
             String receivedPassword = "";

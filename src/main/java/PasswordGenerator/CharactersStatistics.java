@@ -2,11 +2,11 @@ package PasswordGenerator;
 
 import java.util.HashMap;
 import java.util.Map;
-
 import static PasswordGenerator.PasswordStrength.password;
 
 public class CharactersStatistics {
 
+    //method counts all types of password characters and loads them into the map collection
     public Map<Character, Integer> countsIndividualCharactersOfPassword() {
 
         Map<Character, Integer> characterIntegerMap = new HashMap<>();
